@@ -1,0 +1,37 @@
+@import url("../../components/ComponentCss.css");
+
+.main-create{
+    height: 100%;
+}
+
+.main-create h1{
+    color: var(--black);
+  
+}
+
+.main-create span{
+    color: var(--primary);
+}
+
+.main-create h5{
+    color: var(--primary);
+}
+
+.link-login{
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.button-login{
+    border: none;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 10px;
+}
+
+div .invalid{
+    color: red;
+}

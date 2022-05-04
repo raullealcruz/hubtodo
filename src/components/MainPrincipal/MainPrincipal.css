@@ -1,0 +1,45 @@
+@import url("../ComponentCss.css");
+
+.main-screen{
+    height: 100%;
+    background-image: url("../../assets/img/background-main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-screen h1{
+    color: var(--black);
+   
+}
+
+.main-screen h1 span{
+    color: var(--primary);
+}
+
+.main-screen p{
+    color: var(--white); 
+}
+
+.container-buttons{
+    width: 100vw;
+    background-color: var(--primary);
+    height: 35%;
+    border-radius: 30px 30px 0px 0px;
+    transform: translateY(-29%);
+}
+
+.link-main{
+    width: 110px;
+    background-color: var(--white);
+    height: 35px;
+    border-radius: 10px;
+   
+}
+
+.link{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary);
+}
+
