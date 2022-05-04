@@ -1,0 +1,59 @@
+@import url("../../components/ComponentCss.css");
+
+.main-create{
+    height: 100%;
+}
+
+.main-create h1{
+    color: var(--black);
+  
+}
+
+.main-create span{
+    color: var(--primary);
+}
+
+.main-create h5{
+    color: var(--primary);
+}
+
+a{
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+.go-login{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.button-register,
+.button-cancel{
+    border: none;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--primary);
+    color: var(--white);
+    border-radius: 10px;
+}
+.button-register{
+    margin: 7% 0;
+}
+
+div .invalid{
+    color: red;
+}
+
+.form-control {
+    border-radius:10px;
+}
+
+.flecha{
+    margin-bottom: 10%;
+    font-size: 25px;
+    color: black;
+}
+.flecha:hover{
+    color: var(--primary);
+}

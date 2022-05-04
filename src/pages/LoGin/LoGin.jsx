@@ -3,7 +3,7 @@ import './LoGin.css';
 import { NavLink } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 
-function CreateAccount() {
+function InicioSesion() {
   const {
     register,
     handleSubmit,
@@ -86,4 +86,4 @@ function CreateAccount() {
   );
 }
 
-export default CreateAccount;
+export default InicioSesion;

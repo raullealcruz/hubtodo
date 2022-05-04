@@ -20,7 +20,7 @@ function MainPrincipal() {
         </div>
         <div className='w-100 d-flex justify-content-evenly'>
           <ul className='link-main p-2 text-center'>
-            <NavLink className='link' to='/createaccount'>
+            <NavLink className='link' to='createaccount'>
               Registrate
             </NavLink>
           </ul>
